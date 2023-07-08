@@ -18,7 +18,7 @@ public class Animal {
         } else {
             paws = "paws";
         }
-        return String.format("\"Some Bird class configuration problems\"", color, numberOfPaws, paws, hasFur ? "a" : "no");
+        return String.format("This animal is mostly %s. It has %d %s and %s fur.", color, numberOfPaws, paws, hasFur ? "a" : "no");
     }
 
 }
